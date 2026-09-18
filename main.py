@@ -149,6 +149,6 @@ fig3.update_layout(
 
 st.plotly_chart(fig3, width="stretch")
 
-under_1m = (hist_df["tot]()
+under_1m = (hist_df["total_audi"] < 1_000_000).sum()
 ```
 
